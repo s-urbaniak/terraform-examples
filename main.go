@@ -47,6 +47,7 @@ func newIndex(c []byte) (*Index, error) {
 		return n, true
 	})
 
+	idx.Variables = append(idx.Variables, *v)
 	idx.Variables = idx.Variables[1:]
 
 	return idx, nil
