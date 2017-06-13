@@ -1,0 +1,15 @@
+hash: 6e7813425a42c8ede9e7e4fc5af4530d0812180bd16b483ab94af02830b52de4
+updated: 2017-06-13T09:41:00.309624681-04:00
+imports:
+- name: github.com/hashicorp/hcl
+  version: 630949a3c5fa3c613328e1b8256052cbc2327c9b
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+testImports: []

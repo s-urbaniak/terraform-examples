@@ -1,0 +1,6 @@
+package: github.com/alekssaul/terraform-examples
+import:
+- package: github.com/hashicorp/hcl
+  subpackages:
+  - hcl/ast
+  - hcl/token
